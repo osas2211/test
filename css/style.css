@@ -10,9 +10,7 @@
     font-family: var(--primary-font);
    
 }
-body{
-    overflow-x: hidden;
-}
+
 
 
 ul{
@@ -54,6 +52,8 @@ main{
     background-image: var(--bg-gradient-primary);
     height: 105vh;
     color: #fff;
+    width: 100vw;
+    overflow: hidden;
 }
 .main-header{
     padding: 0.6rem 0rem;
@@ -95,11 +95,16 @@ main{
     margin: auto;
 }
 
+.section_{
+    width: 100vw;
+    overflow: hidden;
+}
 
 .section_ .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 .section-1, .section-2{
     width: 100%;
@@ -133,6 +138,7 @@ main{
 
 .service{
     padding: 2rem 0;
+    overflow: hidden;
 }
 .top h2{
     text-align: center;
@@ -243,8 +249,8 @@ main{
 }
 
 @media (max-width: 1000px) {
-    .ham{
-        display: block;
+    main{
+        height: auto;
     }
 }
 
@@ -256,6 +262,9 @@ main{
         margin-top: 0;
     }
 
+    .ham{
+        display: block;
+    }
 
     .section_ .container, .img-download, .icons-service, .get-started, .get{
         flex-direction: column;
