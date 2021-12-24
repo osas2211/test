@@ -90,6 +90,33 @@ main{
     opacity: 0.7;
 }
 
+.mobile-nav{
+    position: absolute;
+    top: 5rem;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 80vw;
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+    display: none;
+    
+}
+
+.show{
+    display: block;
+}
+
+.mobile-nav a{
+    color: rgba(0, 0, 0, 0.726);
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.mobile-nav a:hover{
+    color: #0B65C6;
+}
+
 .container{
     width: 76%;
     margin: auto;
