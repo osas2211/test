@@ -316,6 +316,7 @@ i{
     overflow: visible;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    min-height: 100vh;
 }
 .upgrade-card{
     background-color: #fff;
@@ -390,6 +391,13 @@ form textarea:focus{
     margin-top: 1rem;
 }
 
+.upgrade-success{
+    color: seagreen;
+    font-size: 1.3rem;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
 
 
 input[type = "checkbox"]{
